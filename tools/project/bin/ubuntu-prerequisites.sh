@@ -42,5 +42,5 @@ cd ~
 git clone https://github.com/zlib-ng/zlib-ng.git
 cd zlib-ng
 cmake .
-cmake --build . --config Release -j 8
+cmake --build . --config Release
 sudo cmake --build . --target install
